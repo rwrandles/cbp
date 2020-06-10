@@ -18,7 +18,7 @@ Author: Rohnin Randles, University of Washington-Seattle
 
    - `./Dependencies/bills97-114.csv`: CBP data on bills from 97rd-114th congresses. This data is used as training data by `mlCode.R`
 
-   - `./Dependencies/HSall_members.csv`: data from https://voteview.com/articles/data\_help\_members - this is used as a crosswalk between Congress's BioguideID and ICPSR, as well as providing other useful sponsor information. 
+   - `./Dependencies/HSall_members.csv`: data from https://voteview.com/articles/data_help_members - this is used as a crosswalk between Congress's BioguideID and ICPSR, as well as providing other useful sponsor information. 
 (NOTES: This file does NOT contain data on delegates, so only sponsors from the 50 states are represented. Given that this is a static dataset, this file will be out of date without updating upon any changes to the congressional roster)
 
    - Machine learning objects: files in ./Dependencies/ including `rf_major.rds`, `rf_private.rds`, and `rf_subNoXX.rds` represent trained RandomForest models used by `main.R`. `trainedDTM_major.rds` represents the DocumentTermMatrix used for training.
