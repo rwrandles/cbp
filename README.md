@@ -8,7 +8,7 @@ Author: Rohnin Randles, University of Washington-Seattle
 
    2. Place downloaded bill data into the ./Input/ directory (NOTE: make sure to follow directory structure given below--the code is expecting this particular structure)
 
-   3. Run main.R (make sure to set the working directory to the location of this folder!), this will output two CSV files in the ./Output/ directory
+   3. Run `main.R` (make sure to set the working directory to the location of this folder!), this will output two CSV files in the ./Output/ directory
 
 ## Files:
 
@@ -16,7 +16,7 @@ Author: Rohnin Randles, University of Washington-Seattle
 
    - `mlCode.R`: this file contains all of the code to train and create the supervised machine learning models to classify topics, subtopics, and private issue.
 
-   - `./Dependencies/bills97-114.csv`: CBP data on bills from 97rd-114th congresses. This data is used as training data by `mlCode.R`
+   - `./Dependencies/bills97-114.csv`: CBP data on bills from 97th-114th congresses. This data is used as training data by `mlCode.R`
 
    - `./Dependencies/HSall_members.csv`: data from https://voteview.com/articles/data_help_members - this is used as a crosswalk between Congress's BioguideID and ICPSR, as well as providing other useful sponsor information. 
 (NOTES: This file does NOT contain data on delegates, so only sponsors from the 50 states are represented. Given that this is a static dataset, this file will be out of date without updating upon any changes to the congressional roster)
